@@ -1,0 +1,14 @@
+<div id="header" class="navbar navbar-default" role="navigation">
+
+    <div class="container">
+      <div class="navbar-header">
+        <div class="navbar-brand">BackboneRails.com Demo</div>
+      </div>
+
+      <div class="collapse navbar-collapse">
+        <ul class="nav navbar-nav navbar-right"></ul>
+      </div>
+
+    </div>
+
+</div>
