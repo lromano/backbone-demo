@@ -7,9 +7,12 @@
     mainRegion: "#main-region"
     footerRegion: "#footer-region"
 
-  App.on "initialize: after", ->
+  App.addInitializer ->
+    App.module("FooterApp").start()
 
-    Backbone.history.start() if Backbone.history
+  App.on "initialize: after", ->
+    if Backbone.history
+      Backbone.history.start()
 
   App
 

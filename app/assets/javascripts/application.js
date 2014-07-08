@@ -15,3 +15,4 @@
 //= require backbone
 //= require marionette
 //= require backbone/app
+//= require_tree ./backbone/apps
