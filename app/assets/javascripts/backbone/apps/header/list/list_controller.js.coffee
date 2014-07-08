@@ -4,7 +4,6 @@
 
     listHeader: ->
       links = App.request "header:entities"
-
       headerView = @getHeaderView links
       App.headerRegion.show headerView
 
