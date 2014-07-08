@@ -2,4 +2,4 @@
 
   class Show.Footer extends Marionette.ItemView
 
-    template: JST[""]
+    template: "footer/show/templates/show_footer"

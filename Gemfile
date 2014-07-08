@@ -28,6 +28,11 @@ gem 'spring',        group: :development
 
 gem 'thin'
 
+gem 'eco'
+
+gem 'compass-rails'
+gem 'bootstrap-sass-rails'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 

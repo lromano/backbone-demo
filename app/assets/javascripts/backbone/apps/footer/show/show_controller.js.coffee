@@ -6,6 +6,5 @@
       footerView = @getFooterView()
       App.footerRegion.show footerView
 
-
     getFooterView: ->
       new Show.Footer
