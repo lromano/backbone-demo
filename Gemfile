@@ -30,6 +30,9 @@ gem 'thin'
 
 gem 'eco'
 
+gem 'rabl'
+gem 'oj'
+
 gem 'compass-rails'
 gem 'bootstrap-sass-rails'
 
@@ -41,4 +44,3 @@ gem 'bootstrap-sass-rails'
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
-
