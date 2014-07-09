@@ -32,6 +32,7 @@ gem 'eco'
 
 gem 'rabl'
 gem 'oj'
+gem 'gon'
 
 gem 'compass-rails'
 gem 'bootstrap-sass-rails'
