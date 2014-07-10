@@ -4,15 +4,15 @@
 
     listUsers: () ->
 
-      users = App.request "user:entities"
+      App.request "user:entities", (users) =>
 
-      @layout = @getLayoutView()
+        @layout = @getLayoutView()
 
-      @layout.on 'show', () =>
-        @showPanel users
-        @showUsers users
+        @layout.on 'show', () =>
+          @showPanel users
+          @showUsers users
 
-      App.mainRegion.show @layout
+        App.mainRegion.show @layout
 
     showPanel: (users) ->
       panelView = @getPanelView(users)
